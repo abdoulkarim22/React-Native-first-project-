@@ -7,11 +7,11 @@ export default function App() {
   return (
     <View style={styles.container}>
           <Content/>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style= {styles.textame} > Abdoul Karim Soumana </Text>
       <StatusBar style="auto" />
 
-      <Text style={styles.textName}>
-        Abdoul Karim  mobile  developer junior specialized in React Native and Firebase 
+      <Text style={styles.textDomaine}>
+        mobile  developer junior specialized in React Native and Firebase 
       </Text>
       <Page/>
     </View>
@@ -26,11 +26,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
-  textName:{
-    color:"red",
+  textDomaine:{
     textAlign:"center",
     fontWeight: "bold",
     fontSize:20,
     marginVertical:30,
+  },
+  textame:{
+    fontSize:30,
   }
+
 });

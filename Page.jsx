@@ -8,9 +8,8 @@ export default function Page() {
   return (
 
     <View>
-      <Text style = {styles.textPage}>Page</Text>
         <TouchableOpacity style = {styles.button} onPress={clicksurle} >
-            <Text style={styles.text}>Click Me </Text>
+            <Text style={styles.text}>Contact Me </Text>
         </TouchableOpacity>
     </View>
   )
@@ -26,7 +25,4 @@ const styles = StyleSheet.create({
     text:{
         color:"#f0ffff",
     },
-    textPage: {
-        textAlign:"center"
-    }
 })
