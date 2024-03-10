@@ -1,14 +1,14 @@
-import { View, Text, Button, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, Button, StyleSheet, TouchableOpacity, Linking } from 'react-native';
 
 export default function Page() {
 
     const clicksurle = () => {
-     alert("oui")
+     Linking.openURL('tel:80077079')
     }
   return (
 
     <View>
-        <TouchableOpacity style = {styles.button} onPress={clicksurle} >
+        <TouchableOpacity style = {styles.button} onPress={clicksurle}  >
             <Text style={styles.text}>Contact Me </Text>
         </TouchableOpacity>
     </View>
